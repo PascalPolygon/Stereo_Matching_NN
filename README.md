@@ -4,7 +4,7 @@
   
   -----
   <p align="center">
-  Mawaba Pascal Dao<br> 
+  Pascal Dao<br> 
   Bindi Nagda <br>
   pdao2015@my.fit.edu <br>
   bnagda2015@my.fit.edu <br>
@@ -17,7 +17,14 @@
  References 
   </p>
   
-[1] Aznan, Nik Khadijah Nik, et al. “On the Classification of SSVEP-Based Dry-EEG Signals via Convolutional Neural Networks.” 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2018, doi:10.1109/smc.2018.00631. 
+[1] Lu, C.; Uchiyama, H.; Thomas, D.; Shimada, A.; Taniguchi, R.-i.Sparse Cost Volume forEfficient Stereo Matching.Remote Sens.2018, 10, 1844.
+
+[2] N. Mayer and E. Ilg and P. Häusser and P. Fischer and D. Cremers and A. Dosovitskiy and T.Brox, A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and SceneFlow Estimation, IEEE International Conference on Computer Vision and Pattern Recognition(CVPR),2016, arXiv:1512.02134,.
+
+[3] Zbontar, J.; LeCun, Y. Computing the stereo matching cost with a convolutional neural network.In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Boston,MA, USA, 7–12 June 2015; pp. 1592–1599.
+
+[4] Kendall, A.; Martirosyan, H.; Dasgupta, S.; Henry, P.; Kennedy, R.; Bachrach, A.; Bry, A.End-to-end learning of geometry and context for deep stereo regression. arXiv2017, arXiv:1703.04309.
+
 
  -----
  # Results

@@ -1,15 +1,17 @@
 # Stereo_Matching_NN
 
-  # Sparse Cost Volume Neural Network (SCV-Net)[1] for Stereo Matching
-  
-  -----
+# Sparse Cost Volume Neural Network (SCV-Net)[1] for Stereo Matching
+
+---
+
   <p align="center">
   Pascal Dao<br> 
   Bindi Nagda <br>
   pdao2015@my.fit.edu <br>
   bnagda2015@my.fit.edu <br>
 
-  Spring 2021   
+Spring 2021
+
   </p>
   When a scene is captured by two cameras at different vantage points, it is possible to extract 3Dinformation by comparing their images. This is done by estimating the disparity at the same pixellocations between the two images. This is known as stereo matching.Using this technique, it is possible to reconstruct a 3D scene or object from 2 cameras.  Stereomatching has applications in robotics, AR/VR, manufacturing and more.In recent years, learning based stereo matching approaches have been shown to have much greaterperformance than Physics based approaches. This was demonstrated in 2015 by Zbontar et al. Theytrained a Siamese network to find correspondences between two images [3]. The best approach toend-to-end learning based stereo matching is GC-Net [4].  GC-Net treats stereo matching as aregression problem and has sub-pixel accuracy. However GC-Net’s size makes it slow to run. Thisis because the algorithm searches a large cost volume space.  This project implements a SparseCost Volume. This is done simply by increasing the stride of feature maps over the input images.This eliminates redundancy in the cost volume and creates smaller cost volumes. This Sparse CostVolume Network (SCV-Net) was first proposed in [1].
  -----
@@ -28,17 +30,10 @@
 
 [4] Kendall, A.; Martirosyan, H.; Dasgupta, S.; Henry, P.; Kennedy, R.; Bachrach, A.; Bry, A.End-to-end learning of geometry and context for deep stereo regression. arXiv2017, arXiv:1703.04309.
 
+---
 
- -----
- # Results
-![](results/confusion_mtx.png)
- -----
- # Single channel raw EEG
-![](results/single_channel.png)
- -----
- # Virtual navigation
-The predictions on the EEG signals are used to move a ball in a virtual environment.
-In theory, subjects whose signals were used to train the model could put on an EEG headset and control the ball 
-in real time with their raw brain brain activity without any preprocessing required.
-![](results/virtual_nav.png)
+# Results
 
+![](res/res_table.png)
+
+![](res/outputs.png)
